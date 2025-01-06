@@ -1,0 +1,30 @@
+/* 
+  Adding styles for the div element using the external method.
+  This will apply a red background, white text, a font size of 32px, center aligned, and bold text.
+*/
+div {
+  background-color: red; /* Sets the background color to red */
+  color: white; /* Sets the text color to white */
+  font-size: 32px; /* Sets the font size to 32 pixels */
+  text-align: center; /* Centers the text */
+  font-weight: bold; /* Makes the text bold */
+}
+
+/* 
+  Adding styles for the p element using the external method.
+  This will apply a green background, white text, and a font size of 18px.
+*/
+p {
+  background-color: green; /* Sets the background color to green */
+  color: white; /* Sets the text color to white */
+  font-size: 18px; /* Sets the font size to 18 pixels */
+}
+
+/* 
+  Adding styles for the button element using the external method.
+  This will apply an orange background and a font size of 18px.
+*/
+button {
+  background-color: orange; /* Sets the background color to orange */
+  font-size: 18px; /* Sets the font size to 18 pixels */
+}
