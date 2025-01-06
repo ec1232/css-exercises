@@ -1,0 +1,16 @@
+/* Grouping selector for shared styles */
+.first-button, .second-button {
+  font-size: 28px; /* Font size for both buttons */
+  font-family: Helvetica, "Times New Roman", sans-serif; /* Font family for both buttons */
+}
+
+/* Assign unique classes to each button */
+.first-button {
+  background-color: black; /* Black background for the first button */
+  color: white; /* White text for the first button */
+}
+
+.second-button {
+  background-color: yellow; /* Yellow background for the second button */
+}
+
