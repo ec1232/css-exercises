@@ -6,12 +6,19 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -41,8 +48,32 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 0 16px;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.links {
+  /* Remove default padding from ul */
+  padding: 0;
+  margin: 0;
+  /* Add some margin to create space between logo and links */
+  margin-left: 16px;
+}
+
+/* Group the right-side elements together */
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Make left-side a flex container */
+.left-side {
+  display: flex;
+  align-items: center;
 }
