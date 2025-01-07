@@ -1,6 +1,12 @@
-.header  {
+/* Start of Selection */
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px; /* Add padding to create space between items and edge, including top and bottom */
+  box-sizing: border-box; /* Ensure padding is included in total width */
 }
 
 .logo {
@@ -9,17 +15,24 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  text-align: center;
+  /* Remove margin to keep logo within header */
 }
 
 ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
+  list-style-type: none; /* Remove default list styling */
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
-  text-decoration: none;
+  text-decoration: none; /* Remove underline from links */
+  color: blue; /* Set link color to blue */
 }
+/* End of Selection */
